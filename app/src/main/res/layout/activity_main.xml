@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SQLite Database"
+        android:gravity="center"
+        android:textColor="#0022FF"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:background="#FFF200"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Add Contact"
+        android:backgroundTint="#0E6000"
+        android:layout_marginTop="20dp"
+        android:onClick="addContact"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="View All Contacts"
+        android:backgroundTint="#008B8F"
+        android:layout_marginTop="20dp"
+        android:onClick="viewAllContacts"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Update Contact"
+        android:backgroundTint="#4C008F"
+        android:layout_marginTop="20dp"
+        android:onClick="updateContact"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Delete Contact"
+        android:backgroundTint="#B60000"
+        android:layout_marginTop="20dp"
+        android:onClick="deleteContact"/>
+
+</LinearLayout>
